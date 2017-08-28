@@ -31,7 +31,7 @@ if(self=[super init]){<br/>
 return self;<br/>
 }<br/>
 
-+(ClassName*)initInstanceXXX:XXX:(X)x YYY:(Y){<br/>
++(ClassName*)initInstanceXXX:XXX:(X)x YYY:(Y)y{<br/>
   ClassName* className=[ClassName initXXX:x YYY:y];<br/>
   return className;<br/>
 }<br/>
