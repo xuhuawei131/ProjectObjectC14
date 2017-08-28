@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "MyRect.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        MyRect* myRect=[MyRect initMyRectWithX:100 y:200 w:300 h:400];
+        myRect.x+=100;
+        [myRect printInfo];
+        
     }
     return 0;
 }
